@@ -9,12 +9,22 @@ import { useState } from 'react'
 function App() {
 
   return (
-    <>
-    <div className={style.MusicItems}>
-      <MusicItems musicList={musicList} />
+    <body>
+      <Header />
+
+    <main>
+     <div className={style.MusicItems}>
+     <MusicItems musicList={musicList} />
     </div>
-      
-    </>
+
+
+
+    </main>
+
+
+
+      <Footer />
+    </body>
   )
 }
 
