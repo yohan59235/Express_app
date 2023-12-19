@@ -1,10 +1,3 @@
-const videoList = [
-  {
-    title: "",
-    url: "",
-    top: false,
-    isFavorite: false,
-  },
-];
+const videoList = [{}];
 
 export default videoList;
