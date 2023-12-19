@@ -12,7 +12,6 @@ function MusicCard ({title, autor, url}) {
             <a href={url}>Download</a>
             </audio>    
             </div>
-            
         </figure>
         </div>
     )

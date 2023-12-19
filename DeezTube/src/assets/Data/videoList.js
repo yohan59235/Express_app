@@ -1,35 +1,30 @@
 const videoList = [
   {
-    title: "happy_new_year_-_3565 (Original)",
-    url: "src/assets/Video/happy_new_year_-_3565 (Original)",
+    url: "https://www.youtube.com/embed/Z8IQhMMlpnY?si=Y1-1mzu3VievU043",
     top: false,
     isFavorite: false,
   },
 
   {
-    title: "merry_christmas_-_102165 (Original)",
-    url: "src/assets/Video/merry_christmas_-_102165 (Original)",
+    url: "https://www.youtube.com/embed/B_ii1UpL_tg?si=BkQPy5NwTSe-JqOs",
     top: false,
     isFavorite: false,
   },
 
   {
-    title: "183485 (Original)",
-    url: "src/assets/Video/183485 (Original)",
+    url: "https://www.youtube.com/embed/cBdHUcVXca8?si=Njh4NuyiaS_WO81a",
     top: false,
     isFavorite: false,
   },
 
   {
-    title: "191724 (Original)",
-    url: "src/assets/Video/191724 (Original)",
+    url: "https://www.youtube.com/embed/2Pa5vzEzUuo?si=YRw16dc4BZICn-Xo",
     top: false,
     isFavorite: false,
   },
 
   {
-    title: "191856 (Original)",
-    url: "src/assets/Video/191856 (Original)",
+    url: "https://www.youtube.com/embed/Wm5iBioxW64?si=piZoau9Darol6fza",
     top: false,
     isFavorite: false,
   },
