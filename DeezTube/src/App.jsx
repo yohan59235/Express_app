@@ -28,8 +28,9 @@ function App() {
         <div className={styles.MusicItems}>
         <MusicItems musicList={musicList} /> 
         </div>
-        <div>
-        <div className="videoTitle"><h1>Vos vidéos</h1></div>
+          <div className="videoTitle">
+            <h1>Vos vidéos</h1>
+          </div>
         <div className="VideoItems">
         <VideoCard videoList={videoList} />
         </div>
