@@ -1,30 +1,34 @@
 import './App.css'
 
+import Header from './components/Header'
+import Top from './components/Top'
 import musicList from './assets/Data/musicList'
-import MusicItems from './assets/components/MusicItems'
-import style from "./assets/styles/MusicCard.module.css"
+import MusicItems from './components/MusicItems'
+import style from "./styles/MusicCard.module.css"
+import Footer from "./components/Footer"
 
 import { useState } from 'react'
 
 function App() {
 
   return (
-    <body>
-      <Header />
+      <section>
+        <Header />
+        <Top />
 
-    <main>
-     <div className={style.MusicItems}>
-     <MusicItems musicList={musicList} />
-    </div>
-
-
-
-    </main>
+        <main>
+          <div className={style.MusicItems}>
+          <MusicItems musicList={musicList} />
+          </div>
 
 
 
-      <Footer />
-    </body>
+        </main>
+
+
+
+        <Footer />
+      </section>
   )
 }
 
