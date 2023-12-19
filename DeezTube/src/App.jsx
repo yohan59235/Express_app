@@ -8,9 +8,14 @@ import VideoCard from './components/VideoCard'
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import styles from "./styles/MusicCard.module.css"
+import { useState } from 'react'
 
 
 function App() {
+
+  const [currentPage, setCurrentPage]=useState(0)
+
+  const trueTopMusic=musicList.filter(item => item.top === true);
 
   return (
 
@@ -18,10 +23,12 @@ function App() {
       <Header />
 
       <main>
-        <Top className={styles.Top}/>
+        <Top trueTopMusic={trueTopMusic[currentPage]} currentPage={currentPage} setCurrentPage={setCurrentPage}/>
+        <h1>Vos musiques</h1>
         <div className={styles.MusicItems}>
         <MusicItems musicList={musicList} /> 
         </div>
+        <div>
         <div className="videoTitle"><h1>Vos vidéos</h1></div>
         <div className="VideoItems">
         <VideoCard videoList={videoList} />

@@ -11,6 +11,13 @@ body {
   flex-direction: column;
 }
 
+
+h1{
+  padding: 0;
+  margin:1rem;
+  text-align: center;
+}
+
 .VideoItems{
   display: flex;
   flex-direction: column;
@@ -28,3 +35,4 @@ body {
   justify-content: center;
   text-align: center;
 }
+
