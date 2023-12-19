@@ -11,8 +11,28 @@ body {
   flex-direction: column;
 }
 
+
 h1{
   padding: 0;
   margin:1rem;
   text-align: center;
 }
+
+.VideoItems{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("src/assets/pexels-cinema.jpg");     
+  background-size: contain;      
+  padding: 0.3rem;     
+  margin: 1rem auto; 
+  width: 80%; 
+  box-shadow: 0px 0px 15px 15px rgba(28, 28, 28, 0.816);
+  height: 120%;
+}
+
+.videoTitle h1{
+  justify-content: center;
+  text-align: center;
+}
+
