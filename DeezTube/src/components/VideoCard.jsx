@@ -1,18 +1,13 @@
+import style from "../styles/Video.module.css"
 
-function VideoCard({videoList}) {
+function VideoCard({ videoList }) {
     return (
         <div>
-        {videoList.map((video) =>
-            <iframe width="350" height="300" 
-            key={video.url}
-            src={video.src}
-            title={video.title}
-            frameborder={video.frameBorder}
-            allow={videoList.allow} 
-            allowFullScreen></iframe>
-            )} 
+        {videoList.map((video)=>
+         <iframe key={video.url} width="400" height="300" 
+         src={video.url} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        )}
         </div>
-    )
-}
-
+    );
+  }
 export default VideoCard
