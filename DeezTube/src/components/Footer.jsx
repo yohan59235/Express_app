@@ -33,7 +33,7 @@ function Footer() {
 
                 <div>
                     <h5>Autres</h5>
-                        <p>Politique de confidentialité</p>
+                        <p>Politique de<br /> confidentialité</p>
                 </div>
             </div>
         
