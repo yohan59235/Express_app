@@ -1,0 +1,125 @@
+
+$primary-color : orange;
+
+
+
+* {
+    max-width: 410px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hamster {
+    width: 100%;
+}
+
+div {
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        color: $primary-color;
+        position: absolute;
+        top: 0;
+        left: 2em;
+    }
+}
+
+.roles {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.role1 {
+    position: absolute;
+    color: $primary-color;
+    top: 14em;
+    left: 1em;
+    text-shadow: 
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
+}
+
+.role2 {
+    position: absolute;
+    color: $primary-color;
+    top: 15em;
+    left: 11em;
+    text-shadow: 
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
+}
+
+.role3 {
+    position: absolute;
+    color: $primary-color;
+    top: 14em;
+    right: 1em;
+    text-shadow: 
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
+}
+
+.description {
+    padding: 0em 1em;
+}
+
+.star {
+    width: 1em;
+    padding: 0em 0em 1em 0em;
+}
+
+.notes {
+    display: flex;
+}
+
+
+div.description {
+    h2 {
+        padding: 0em 0em 0.5em 0em;
+    }
+
+    h4 {
+        padding: 0em 0em 0.5em 0em;
+    }
+
+    hr {
+        width: 100%;
+        margin: 1em 0em 0em 0em;
+    }
+}
+
+div.dispo {
+    h2 {
+        padding: 0.5em 0em 0.5em 0.5em;
+    }
+}
+
+.salles {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.salles {
+    article {
+        border: 1px solid gray;
+        background-color: lightgray;
+        border-radius: 20px;
+        width: 5em;
+        text-align: center;
+        height: 2.5em;
+        padding: 0.5em 0em 0em 0em;
+    }
+}
+
