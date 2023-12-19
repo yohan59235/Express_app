@@ -8,7 +8,7 @@ import VideoCard from './components/VideoCard'
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 
-import style from "./styles/MusicCard.module.css"
+import styles from "./styles/MusicCard.module.css"
 
 function App() {
 
@@ -16,9 +16,10 @@ function App() {
 
     <>
       <Header />
-      <Top />
+
       <main>
-        <div className={style.MusicItems}>
+        <Top className={styles.Top}/>
+        <div className={styles.MusicItems}>
         <MusicItems musicList={musicList} />
         </div>
         <div>

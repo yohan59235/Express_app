@@ -1,0 +1,21 @@
+.christmas {
+    padding: 0;
+    margin: 0;
+}
+
+.Topimg {
+    display: flex;
+    align-items: center;
+    background-image: contain;
+    width: 80%;
+    height: 600px;
+    margin: 0 auto; 
+}
+
+.merrychristmas {
+    position: absolute;
+    width: 36%;
+    height: 40%;
+    left: 32%;
+    top: 70%;
+}
