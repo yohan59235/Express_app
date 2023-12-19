@@ -1,8 +1,8 @@
-import style from "../styles/MusicCard.module.css"
+import styles from "../styles/MusicCard.module.css"
 function MusicCard ({title, autor, url}) {
     return (
         <div>
-        <figure className={style.MusicCard}>
+        <figure className={styles.MusicCard}>
             <div>
             <h2>{title}</h2>
             <figcaption>de <em>{autor}</em></figcaption>
