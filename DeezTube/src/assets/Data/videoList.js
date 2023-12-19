@@ -6,7 +6,6 @@ const videoList = [
     isFavorite: false,
   },
 
-
   {
     title: "merry_christmas_-_102165 (Original)",
     url: "src/assets/Video/merry_christmas_-_102165 (Original)",
@@ -34,13 +33,6 @@ const videoList = [
     top: false,
     isFavorite: false,
   },
-
 ];
-
-
-
-
-
-  
 
 export default videoList;
