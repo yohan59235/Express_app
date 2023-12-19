@@ -12,6 +12,3 @@ function MusicItems ({musicList}) {
 }
 
 export default MusicItems
-
-/*MusicCard key={song.title} title={song.title} 
-            autor={song.autor} url={song.url}/>*/

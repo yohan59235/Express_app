@@ -34,6 +34,13 @@ const musicList = [
     top: false,
     isFavorite: false,
   },
+  {
+    title: "All I want for Christmas is you",
+    autor: "Mariah Carey",
+    url: "src/assets/Audio/onlymp3.to - Mariah Carey All I Want for Christmas Is You Make My Wish Come True Edition -aAkMkVFwAoo-192k-1702978800.mp3",
+    top: false,
+    isFavorite: false,
+  },
 ];
 
 export default musicList;
