@@ -1,6 +1,6 @@
 import style from "../styles/Video.module.css"
 
-function VideoCard({ videoList }) {
+function VideoCard({videoList}) {
     return (
         <div>
         {videoList.map((video)=>

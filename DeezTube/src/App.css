@@ -11,3 +11,8 @@ body {
   flex-direction: column;
 }
 
+h1{
+  padding: 0;
+  margin:1rem;
+  text-align: center;
+}
