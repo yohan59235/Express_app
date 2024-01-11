@@ -34,7 +34,7 @@
 .snow {
     background-image: cover;
     position: absolute;
-    width: 28%;
+    width: 18%;
     height: 140em;
     left: 0;
     top: 4em;
@@ -43,7 +43,7 @@
 .snow2 {
     background-image: cover;
     position: absolute;
-    width: 27.7%;
+    width: 18%;
     height: 140em;
     right: 0;
     top: 4em;
